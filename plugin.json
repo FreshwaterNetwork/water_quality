@@ -1,0 +1,13 @@
+{
+    "css": [
+        "//code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.css",
+		"plugins/water_quality/chartist/chartist.min.css",
+		"plugins/water_quality/main.css",
+        "//cdn.sencha.io/ext-4.1.1-gpl/resources/css/ext-all.css"
+    ],
+    "use": {
+        "underscore": { "attach": "_" },
+        "tv4": { "attach": "tv4" },
+        "extjs": { "attach": "Ext" }
+    }
+}

@@ -1,0 +1,184 @@
+.idDiv{
+	padding:10px;
+	padding-left:0;
+}
+.chartDiv{
+	padding-top:10px; padding-left:0; padding-bottom:0px; padding-right:0px; margin-bottom:-10px; height:350px; background-color:#FAFAFA;
+}
+.epa{
+	color:blue;
+}
+.epa:hover{
+	cursor:pointer; color:#4292d6;
+}
+.hideLegend{
+	display:none !important;
+}
+.epa1{
+	color:blue;
+}
+.epa1:hover{
+	cursor:pointer; color:#4292d6;
+}
+.tbl{
+	border: 1px solid black; border-collapse: collapse; font-size: 9pt;	margin-bottom: 0px;
+}
+.thc{
+	width:75px;
+}
+.tbodyc tr:nth-child(odd) {
+  background: #E8F2FB;
+}
+.tbodyc{
+	text-align:left;
+}
+.hrStyle{
+	background-color: #4a96de; height:1px; border:0; margin-top:-4px; margin-bottom:15px; 
+	background-image: -webkit-linear-gradient(left, #ccc, #4a96de, #ccc);
+	background-image: -moz-linear-gradient(left, #ccc, #4a96de, #ccc); 
+	background-image: -ms-linear-gradient(left, #ccc, #4a96de, #ccc); 
+	background-image: -o-linear-gradient(left, #ccc, #4a96de, #ccc);
+}
+.tdc{
+	text-align:center;
+}
+.infopiccloser{
+	position:absolute !important; top:5px !important; right:5px !important;
+}
+.infopiccloser a:hover{
+	color:#29cea4;
+}
+.arrow-right {
+	position: absolute; top: 7px; right: 22px; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 10px solid #29A6CE;
+}
+.arrow-left {
+	position: absolute; top: 7px; right: 35px; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-right:10px solid #29A6CE; 
+}
+.arrow-left:hover{
+	cursor:pointer; border-right:10px solid #29cea4;
+}
+.arrow-right:hover{
+	cursor:pointer; border-left:10px solid #29cea4;
+}
+.summaryDiv{
+	position: relative; top:0px; left:55px; width:530px; height:350px; padding:0; background-color:#FAFAFA;
+}
+.barHolder{
+	position: relative; width:195px; height:100px;
+}
+.barHolder .meanBars{
+  position:absolute; bottom:0; float:left; width:20px; background-color:#408cb4; box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+	border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; 
+}
+.meanBars:hover{
+	cursor:pointer; background-color:#4fa84a !important;
+}
+.meanBars:active{
+	cursor:pointer; 
+}
+.selBar{
+	background-color:#4fa84a !important;
+}
+.smallLabels{
+	width:26px; height:36px; border: 1px solid gray; float:left; text-align:center; padding-top:10px; background-color: #e5e9e8; color:#454545; font-size:8pt;
+}
+.slText{
+	-ms-transform: rotate(90deg); -webkit-transform: rotate(91deg); transform: rotate(90deg); 
+}
+.hp{
+	position:relative; left:-50px; top:0px; font-size:8pt; color:#454545;
+}
+.hp .hLbl{
+	position:absolute; width:45px; text-align:right; top:-7px; font-size:8pt;
+}
+.hp .mLbl{
+	position:absolute; width:45px; text-align:right; top:17px; font-size:8pt;
+}
+.hp .lLbl{
+	position:absolute; width:45px; text-align:right; top:43px; font-size:8pt;
+}
+.hp .uLbl{
+	position:absolute; width:45px; text-align:right; top:67px; font-size:8pt;
+}
+.hpLines{
+	position:relative; left:-50px; top:76px; z-index:10;
+}
+.lClass{
+	width:510px; height:3px; border-bottom: 1px dashed #A8ACAC; opacity:1;
+}
+.hpLines .hLine{
+	position:absolute; left:50px; top:-80px; 
+}
+.hpLines .mLine{
+	position:absolute; left:50px; top:-55px; 
+}
+.hpLines .lLine{
+	position:absolute; left:50px; top:-30px; 
+}
+.hpLines .uLine{
+	position:absolute; left:50px; top:-5px; 
+}
+.buttonBar{
+	margin-left:30px;
+} 
+.buttonBar__item > input {
+  border:0; clip:rect(0 0 0 0); height:2rem; margin:0 -2.5rem -2.5rem 0; overflow:hidden; padding:0; position:absolute; width:auto; opacity:0.001;
+}
+.buttonBar {
+  display:table; table-layout:fixed; white-space:no-wrap; margin:0; padding:0;
+}
+.buttonBar__item {
+  display:table-cell; width:auto; border-radius:0;
+}
+.buttonBar__button {
+	background-color:#e5e9e8; border:1px solid #a5a8a8; color:#454545; font-size:8pt; line-height:200%; margin:-1px; overflow:hidden; padding:0 5px;	
+	position:relative; text-decoration:none; text-overflow:ellipsis; text-shadow:0 1px #fff; user-select:none; vertical-align:top; white-space:nowrap; width:auto; 
+}	
+.buttonBar__button:hover {
+	cursor:pointer;
+}
+.smallLabels:hover{
+	cursor:pointer;
+}	
+.buttonBar__item:hover {
+	cursor:default;
+}
+.buttonBar__button:disabled, .buttonBar__button.is-disabled {
+  opacity:0.3; cursor:default; pointer-events:none;
+}
+.buttonBar__selected{
+  background-color:#d3d7d7; -webkit-box-shadow:inset 0 1px rgba(0,0,0,0.12); box-shadow:inset 0 1px rgba(0,0,0,0.12);
+}
+.buttonBar__item:disabled, .buttonBar__item.is-disabled {
+  opacity:0.3; cursor:default; pointer-events:none;
+}
+.dis{
+	opacity:0.3; cursor:default;
+}
+.dis:hover{
+	cursor:default;
+}
+.disText:hover{
+	cursor:default;
+}
+button:focus{
+	outline:0;
+}
+.ct-series-a .ct-line {
+  stroke:#8cb440; stroke-width:3px;
+}	
+.ct-series-a .ct-point {
+  stroke:#4052b4; stroke-width:8px;
+}
+.bottomRight{
+	-webkit-box-shadow:1px 1px 3px 0px rgba(102,102,102,0.7); -moz-box-shadow:1px 1px 3px 0px rgba(102,102,102,0.7); box-shadow:1px 1px 3px 0px rgba(102,102,102,0.7);
+}
+.ct-label{
+	color:#454545; font-size:8pt;
+}
+.ct-grid{
+	stroke:rgba(168, 172,172,0.7); stroke-dasharray:3px;
+}
+.chartTitles{
+	width:420; text-align:center; color:#454545;
+}

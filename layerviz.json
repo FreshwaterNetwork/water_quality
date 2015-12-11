@@ -1,0 +1,215 @@
+{
+    "url": "http://50.18.215.52/arcgis/rest/services/Louisiana_Freshwater/NRCS_Water_Quality/MapServer",
+    "methods": "plugins/restoration_techniques/njmethods.pdf",
+	"visibleLayers": [1],
+	"legendHtml": "",
+	"legendVis": "none",
+	"landCoverVis": "none",
+	"landCoverId": "-1",
+	"layerId": "", 
+	"clickableVis": "none",
+	"soilsVis": "none",
+	"soilsId": "-1",
+	"huc12Vis": "none",
+	"pointsVis": "none",
+	"spDefEx": "",
+	"stationsVis": "none",
+	"supDataVis": "none",
+	"supDataMarTop": 0,
+	"rasterYear": "",
+	"huc12Exp": "",
+	"lookup1": "",
+	"lookup2": "",
+	"layerType": "",
+	"extent": "",
+	"techName": "",
+	"firstBar": "first",
+	"tid": "",
+	"mean": "",
+	"trait": "",
+	"traits": [],
+	"val": "",
+	"year": "",
+	"graphsVis": "none",
+	"spAtts": [],
+	"graphicsTracker": "go",
+	"controls": [
+		{
+            "type": "group",
+			"level": 1,
+			"control": "radio",
+			"parentValue": "",
+			"display": "block",
+			"header": [
+				{
+					"text": "1. Select a HUC8",
+					"name": "level_1",
+					"helpTitle": "",
+					"helpText": "",
+					"headerLevel" : "main"
+				}
+			],
+			"options": [
+				{
+                    "text": "Boeuf",
+                    "selected": false,
+                    "value": "Boeu",
+					"code": "08050001",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Mermentau",
+                    "selected": false,
+                    "value": "Merm",
+					"code": "08080202",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Tangipahoa",
+                    "selected": false,
+                    "value": "Tang",
+					"code": "08070205",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                }
+            ]
+        },
+		{
+			"type": "group",
+			"level": 2,
+			"control": "radio",
+			"parentValue": "",
+			"display": "none",
+			"header": [
+				{
+					"text": "2. Select a water quality trait",
+					"name": "level_2",
+					"helpTitle": "",
+					"helpText": "",
+					"headerLevel" : "main"
+				}
+			],	
+            "options": [
+                {
+                    "text": "Dissolved Oxygen",
+                    "selected": false,
+                    "value": "DO",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Nitrogen",
+                    "selected": false,
+                    "value": "N",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Phosphorus",
+                    "selected": false,
+                    "value": "P",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Total Dissolved Solids",
+                    "selected": false,
+                    "value": "TDS",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Total Suspended Solids",
+                    "selected": false,
+                    "value": "TSS",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                },
+				{
+                    "text": "Turbidity",
+                    "selected": false,
+                    "value": "TUR",
+					"showData": "no",
+					"groupsBelow" : "yes"
+                }
+            ]
+        },
+		{
+			"type": "group",
+			"level": 3,
+			"control": "radio",
+			"parentValue": "",
+			"display": "none",
+			"legendDiv": "yes",
+			"header": [
+				{
+					"text": "3. Select a water quality trait",
+					"name": "level_3",
+					"helpTitle": "",
+					"helpText": "",
+					"headerLevel" : "main"
+				}
+			],	
+            "options": [
+            ]
+        },
+		{
+            "type": "group",
+			"level": "3",
+			"control": "checkbox",
+			"parentValue": "",
+			"display": "none",
+			"headerText": "3a. Supporting Data",	
+			"options": [
+				{
+                    "text": "HUC 12's",
+                    "selected": false,
+                    "value": "huc12"
+				},
+				{
+                    "text": "Soils Data",
+                    "selected": false,
+                    "value": "soilsData"
+				},
+				{
+                    "text": "Sample Points",
+                    "selected": false,
+                    "value": "samplePoints"
+				},
+				{
+                    "text": "Land Cover",
+                    "selected": false,
+                    "value": "landCover"
+				}
+            ]
+        },
+		{
+            "type": "group",
+			"level": "1",
+			"control": "checkboxExtra",
+			"parentValue": "",
+			"display": "block",
+			"headerText": "Sampling Stations",	
+			"header": [
+				{
+					"text": "<hr class='hrStyle'>",
+					"name": "level_4",
+					"helpTitle": "",
+					"helpText": "",
+					"headerLevel" : "main1"
+				}
+			],	
+			"options": [
+				{
+                    "text": "View Water Quality Stations",
+                    "selected": false,
+                    "value": "samplingStations"
+				}
+            ]
+        }
+	]
+}
+
+
