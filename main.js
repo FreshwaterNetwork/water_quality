@@ -40,7 +40,7 @@ define([
 				rendered: false,
 				width: "290",
 				height: "580",
-				//infoGraphic: "plugins/water_quality/images/Water-Quality6_67x10.jpg",
+				infoGraphic: "plugins/water_quality/images/Water-Quality6_67x10.jpg",
 				
 				initialize: function (frameworkParameters) {
 					declare.safeMixin(this, frameworkParameters);
