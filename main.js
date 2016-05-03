@@ -33,7 +33,7 @@ define([
 					layerViz, $ ) {
 					
 			return declare(PluginBase, {
-				toolbarName: "Water Quality",
+				toolbarName: "Water Quality Pilot",
 				toolbarType: "sidebar",
 				showServiceLayersInLegend: false,
 				allowIdentifyWhenActive: false,
